@@ -1,0 +1,29 @@
+# ==============================================================================
+# DEPENDENCIAS PYTHON PARA RASTREADOR GPS (LINUX / UBUNTU / DEBIAN / CENTOS)
+# ==============================================================================
+
+# Framework Web ASGI de alto rendimiento
+fastapi>=0.110.0
+
+# Servidor ASGI con soporte para WebSockets en tiempo real
+uvicorn[standard]>=0.28.0
+websockets>=12.0
+
+# Conector de Base de Datos MySQL / MariaDB en Python puro
+pymysql>=1.1.0
+
+# Cifrado requerido por MySQL 8+ (caching_sha2_password)
+cryptography>=42.0.0
+
+# Validación de modelos y esquemas de datos
+pydantic>=2.6.0
+
+# Carga de variables de entorno desde archivo .env
+python-dotenv>=1.0.0
+
+# Servidor de procesos de producción para Linux (gestor de workers Uvicorn)
+gunicorn>=21.2.0
+
+# Cliente HTTP para scripts de pruebas y simulación GPS (simular_gps.py)
+requests>=2.31.0
+
